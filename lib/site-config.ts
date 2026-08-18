@@ -26,9 +26,10 @@ export const siteConfig = {
   ogDescription:
     'Two hearts, one promise. Join us on Thursday, 27th August 2026 as we celebrate our union at M.S.R. Gardens, Kattangur, Nalgonda, Telangana. Your blessings mean the world to us.',
 
-  // Place your custom thumbnail at public/images/og-thumbnail.png
-  // Recommended size: 1200 × 630 px, < 8 MB, JPG or PNG.
-  ogImage: '/images/og-thumbnail.png',
+  // Place your custom thumbnail at public/images/og-thumbnail.jpg
+  // Recommended size: 1200 × 630 px, keep it well under 1 MB (WhatsApp/social
+  // crawlers can fail to render oversized OG images).
+  ogImage: '/images/og-thumbnail.jpg',
 
   // Fallback used when og-thumbnail.jpg doesn't exist yet.
   ogImageFallback: '/images/temple-bg.png',
