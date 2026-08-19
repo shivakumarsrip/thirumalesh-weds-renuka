@@ -9,7 +9,11 @@ import ScrollReveal from './ui/ScrollReveal'
 
 const FAMILIES = [
   {
-    name: 'Family',
+    name: 'Bride Family',
+    image: '/images/Bride%20Family.jpeg',
+  },
+  {
+    name: 'Groom Family',
     image: '/images/Groom%20Family.jpeg',
   },
 ]
@@ -155,6 +159,7 @@ function FamilyCard({
           <circle cx="24" cy="24" r="1.5" fill="#d4af37" fillOpacity="0.6" />
         </svg>
       </div>
+      <p className="font-serif text-lg md:text-xl text-gold tracking-wide">{family.name}</p>
     </motion.div>
   )
 }
